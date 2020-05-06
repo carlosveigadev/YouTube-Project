@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Youtube</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav id="nav-style">
+      <div class="div-btns">
+        <div class="logos">
+          <button type="button" class="btn-ham" name="button"> <img class='hamburguer' src="images/hamburguer-button.png" alt="Drop down menu to options"></button>
+
+          <img class='youtube-logo' src="images/youtube-logo.png" alt="YouTube Logo">
+        </div>
+        <div class="div-input">
+          <input type='text' placeholder=" Search" class="search-bar">
+       </div>
+       <div>
+          <button type="button" class="btn-search" name="button"><img class='search' src="images/search-logo.png" alt="Search Button"></button>
+       </div>
+
+          <div class="last-btns">
+              <a href='#' class="anc-upload"><img class='upload-logo' src="images/upload-logo.png" alt="Upload a Video."></a>
+          </div>
+          <div class="sgn-btn">
+              <button class="btn-sign" type="button" name="sign-in">  <span class="sign-text"> Sign in </span> </button>
+          </div>
+      </div>
+    </nav>
+    <!--body-->
+    <div class="body">
+
+      <!--choose language-->
+
+        <div class="main-div">
+
+          <div class="div-prsn">
+            <span class="qstn-prsn">
+              <img src="images/question-person.png" alt="Image of a person with a question.">
+            </span>
+          </div>
+
+          <div class="language-text">
+              <span>Choose your language.</span>
+          </div>
+
+          <div class="div-x-btn">
+            <button type="button" name="language-close" class="x-btn">x</button>
+          </div>
+        </div>
+
+        <div class="preferences">
+          <span>You're viewing YouTube in <strong>English (US)</strong>. You can change <a class="preference-blw" href="_blank">this preference below</a>.</span><a class="learn-more" href= '_blank'>Learn more</a>
+        </div>
+    </div>
+
+    <!--VIDEO-->
+    <div class="div-video">
+      <iframe class="video" src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
+   <!--INFORMATION VIDEO-->
+   <div class="info-video">
+     <div class="name-video">
+       <h2>Contributing to Open Source Part I: The Easy Way</h2>
+          <div class="t-odin-subs">
+         <div class="div-t">
+           <a class="t" href="_blank">T</a>
+         </div>
+         <div class="odin-div">
+           <a class="odin">The Odin Project</a>
+         </div>
+         <div class="subscribe">
+           <button type="button" name="subscribe" class="yt-btn">
+            <img class="yt-icon" src="images/yt-icon.png" alt="Youtube Icon to Subscrive">
+             <span>Subscribe</span></button>
+             <span class= "n-views">799</span>
+         </div>
+         <div class="div-views">
+           50,016 views
+         </div>
+          <hr class="line">
+          <hr class="line-blue">
+          <hr class="line-gray">
+
+          <div class="icons">
+
+            <button class="addto" type="button" name="reply">
+                <span><i class="material-icons">add</i></span>
+                <span class="w1"> Add to </span>
+            </button>
+
+            <button  class="addto" type="button" name="button">
+              <i class="material-icons">reply</i>
+              <span class="w1"> Share</span>
+            </button>
+
+            <button class="addto" type="button" name="button">
+              <i class="material-icons">more_horiz</i>
+              <span class="w1"> More</span>
+            </button>
+
+            <button class="addto1" type="button" name="button">
+              <i class="material-icons">thumb_up</i>
+              <span class="w1">  359</span>
+            </button>
+
+            <button class="addto1" type="button" name="button">
+              <i class="material-icons">thumb_down</i>
+              <span class="w1">14</span>
+            </button>
+          </div>
+       </div>
+
+      <!--PUBLISHED INFORMATION -->
+          <div class="pub">
+         <h4 class="pub-t">Published on Feb 27, 2014</h4>
+         <h5 class="pub-p">How do you contribute to open source? In this video, I'll describe the easiest way to make a simple <br>
+            contribution to an open source project
+            -- without using the command line, a text editor, "forking a repo", or <br> even touching Git outside of Github. I'll also describe what kinds of
+            contributions open source software <br> projects are typically looking for. As an example, I use submitting a student solution to a web development <br>
+            exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. <br> You can find more information about
+            that project at http://theodinproject.com.
+          </h5>
+          <div class="show-more">
+            <button class="show-btn">SHOW MORE</button>
+          </div>
+       </div>
+
+      <!-- Loading...-->
+          <div class="load">
+          <img class="gif" src="images/loading-png-gif-original.gif" alt="gif_loading...">
+          <span class="load-txt">Loading... </span>
+       </div>
+     </div>
+   </div>
+      <!-- SIDEBAR -->
+      <aside>
+        <div class="sidebar">
+          <div class="sidebar-config">
+            <h4 class="up-next-txt">Up next</h4>
+            <label class="a-play">Autoplay</label>
+            <span>
+              <i id="info" class="material-icons">info</i>
+            </span>
+            <img class="toggle" src="images/toggle.png" alt="toggle button">
+          </div>
+          <ul>
+            <li class="mini-video-border">
+              <img class="sky" src="images/sky.jpeg" alt="blue sky">
+              <span class="counter">14:25</span>
+              <div class="text-div-side">
+                  <span class="txt-top">Contributing to Open  source part II: The Real Way</span>
+                  <span class="txt-middle">The Odin Project</span>
+                  <span class="txt-bot">29,985 Views</span>
+              </div>
+            </li>
+            <li class="mini-video">
+              <img class="sky" src="images/sky.jpeg" alt="blue sky">
+              <span class="counter">14:25</span>
+              <div class="text-div-side">
+                  <span class="txt-top">Contributing to Open  source part II: The Real Way</span>
+                  <span class="txt-middle">The Odin Project</span>
+                  <span class="txt-bot">29,985 Views</span>
+              </div>
+            </li>
+            <li class="mini-video">
+              <img class="sky" src="images/sky.jpeg" alt="blue sky">
+              <span class="counter">14:25</span>
+              <div class="text-div-side">
+                  <span class="txt-top">Contributing to Open  source part II: The Real Way</span>
+                  <span class="txt-middle">The Odin Project</span>
+                  <span class="txt-bot">29,985 Views</span>
+              </div>
+            </li>
+            <li class="mini-video">
+              <img class="sky" src="images/sky.jpeg" alt="blue sky">
+              <span class="counter">14:25</span>
+              <div class="text-div-side">
+                  <span class="txt-top">Contributing to Open  source part II: The Real Way</span>
+                  <span class="txt-middle">The Odin Project</span>
+                  <span class="txt-bot">29,985 Views</span>
+              </div>
+            </li>
+            <li class="mini-video">
+              <img class="sky" src="images/sky.jpeg" alt="blue sky">
+              <span class="counter">14:25</span>
+              <div class="text-div-side">
+                  <span class="txt-top">Contributing to Open  source part II: The Real Way</span>
+                  <span class="txt-middle">The Odin Project</span>
+                  <span class="txt-bot">29,985 Views</span>
+              </div>
+            </li>
+            <li class="mini-video">
+              <img class="sky" src="images/sky.jpeg" alt="blue sky">
+              <span class="counter">14:25</span>
+              <div class="text-div-side">
+                  <span class="txt-top">Contributing to Open  source part II: The Real Way</span>
+                  <span class="txt-middle">The Odin Project</span>
+                  <span class="txt-bot">29,985 Views</span>
+              </div>
+            </li>
+            <li class="mini-video">
+              <img class="sky" src="images/sky.jpeg" alt="blue sky">
+              <span class="counter">14:25</span>
+              <div class="text-div-side">
+                  <span class="txt-top">Contributing to Open  source part II: The Real Way</span>
+                  <span class="txt-middle">The Odin Project</span>
+                  <span class="txt-bot">29,985 Views</span>
+              </div>
+            </li>
+            <li class="mini-video">
+              <img class="sky" src="images/sky.jpeg" alt="blue sky">
+              <span class="counter">14:25</span>
+              <div class="text-div-side">
+                  <span class="txt-top">Contributing to Open  source part II: The Real Way</span>
+                  <span class="txt-middle">The Odin Project</span>
+                  <span class="txt-bot">29,985 Views</span>
+              </div>
+            </li>
+            <li class="mini-video">
+              <img class="sky" src="images/sky.jpeg" alt="blue sky">
+              <span class="counter">14:25</span>
+              <div class="text-div-side">
+                  <span class="txt-top">Contributing to Open  source part II: The Real Way</span>
+                  <span class="txt-middle">The Odin Project</span>
+                  <span class="txt-bot">29,985 Views</span>
+              </div>
+            </li>
+            <li class="mini-video">
+              <img class="sky" src="images/sky.jpeg" alt="blue sky">
+              <span class="counter">14:25</span>
+              <div class="text-div-side">
+                  <span class="txt-top">Contributing to Open  source part II: The Real Way</span>
+                  <span class="txt-middle">The Odin Project</span>
+                  <span class="txt-bot">29,985 Views</span>
+              </div>
+            </li>
+            <li class="mini-video">
+              <img class="sky" src="images/sky.jpeg" alt="blue sky">
+              <span class="counter">14:25</span>
+              <div class="text-div-side">
+                  <span class="txt-top">Contributing to Open  source part II: The Real Way</span>
+                  <span class="txt-middle">The Odin Project</span>
+                  <span class="txt-bot">29,985 Views</span>
+              </div>
+            </li>
+            <li class="mini-video">
+              <img class="sky" src="images/sky.jpeg" alt="blue sky">
+              <span class="counter">14:25</span>
+              <div class="text-div-side">
+                  <span class="txt-top">Contributing to Open  source part II: The Real Way</span>
+                  <span class="txt-middle">The Odin Project</span>
+                  <span class="txt-bot">29,985 Views</span>
+              </div>
+            </li>
+            <li class="mini-video">
+              <img class="sky" src="images/sky.jpeg" alt="blue sky">
+              <span class="counter">14:25</span>
+              <div class="text-div-side">
+                  <span class="txt-top">Contributing to Open  source part II: The Real Way</span>
+                  <span class="txt-middle">The Odin Project</span>
+                  <span class="txt-bot">29,985 Views</span>
+              </div>
+            </li>
+            <li class="mini-video">
+              <img class="sky" src="images/sky.jpeg" alt="blue sky">
+              <span class="counter">14:25</span>
+              <div class="text-div-side">
+                  <span class="txt-top">Contributing to Open  source part II: The Real Way</span>
+                  <span class="txt-middle">The Odin Project</span>
+                  <span class="txt-bot">29,985 Views</span>
+              </div>
+            </li>
+            <li class="mini-video">
+              <img class="sky" src="images/sky.jpeg" alt="blue sky">
+              <span class="counter">14:25</span>
+              <div class="text-div-side">
+                  <span class="txt-top">Contributing to Open  source part II: The Real Way</span>
+                  <span class="txt-middle">The Odin Project</span>
+                  <span class="txt-bot">29,985 Views</span>
+              </div>
+            </li>
+            <li class="mini-video">
+              <img class="sky" src="images/sky.jpeg" alt="blue sky">
+              <span class="counter">14:25</span>
+              <div class="text-div-side">
+                  <span class="txt-top">Contributing to Open  source part II: The Real Way</span>
+                  <span class="txt-middle">The Odin Project</span>
+                  <span class="txt-bot">29,985 Views</span>
+              </div>
+            </li>
+            <li class="mini-video-border">
+              <img class="sky" src="images/sky.jpeg" alt="blue sky">
+              <span class="counter">14:25</span>
+              <div class="text-div-side">
+                  <span class="txt-top">Contributing to Open  source part II: The Real Way</span>
+                  <span class="txt-middle">The Odin Project</span>
+                  <span class="txt-bot">29,985 Views</span>
+              </div>
+            </li>
+          </ul>
+          <button class="show-more-sidebar">SHOW MORE</button>
+        </div>
+      </aside>
+      <footer>
+        <div class="footer">
+          <div class="in-footer">
+
+            <img class="youtube-logo2" src="images/youtube-logo.png" alt="YouTube Logo">
+
+            <button type="button" name="button" class="btn-foot">
+              <img class="img-footer" src="images/question-person-gray.png" alt="Question person"><span class="lang-txt">Language: English
+                 </span>
+                 <img id="idn-lang" class="icon-down" src="images/icon-down2.png" alt="icon down">
+            </button>
+
+            <button type="button" name="button" class="btn-foot">
+              <span>Location: Netherlands   </span>
+              <span>
+                <img class="icon-down" src="images/icon-down2.png" alt="icon down">
+              </span>
+            </button>
+            <button type="button" name="button" class="btn-foot">
+              <span>Restricted Mode: Off   </span>
+              <span>
+                <img class="icon-down" src="images/icon-down2.png" alt="icon down">
+              </span>
+            </button>
+
+            <button id="btn-foo1" type="button" name="button" class="btn-foot">
+              <img class="hourglass" src="images/hourglass.png" alt="Houglass icon">
+              <span>History</span>
+            </button>
+
+            <button id="btn-foo2" type="button" name="button" class="btn-foot">
+              <span class="hlp-txt"><img class="h-img" src="images/help.png" alt="help logo">Help</span>
+            </button>
+
+
+          </div>
+          <!--ANCHOR list-->
+          <div>
+            <ul class="anc-lst">
+              <li> <a class="a-elmnt" href="#">About</a> </li>
+              <li> <a class="a-elmnt" href="#">Press</a> </li>
+              <li> <a class="a-elmnt" href="#">Copyright</a> </li>
+              <li> <a class="a-elmnt" href="#">Advertise</a> </li>
+              <li> <a class="a-elmnt" href="#">Developers</a> </li>
+            </ul>
+          </div>
+
+            <div class="cont-li">
+                <a class="a-elmnt1" href="#">Terms</a>
+                <a class="a-elmnt1" href="#">Privacy</a>
+                <a class="a-elmnt1" href="#">Policy & Safety</a>
+                <a class="a-elmnt1" href="#">Test New Features</a>
+            </div>
+          </div>
+      </footer>
+  </body>
+</html>
