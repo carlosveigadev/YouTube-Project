@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-https://wrakc.github.io/YouTube-Clone/
+https://wrakc.github.io/YouTube-Project/.
 
 ## Authors
 
