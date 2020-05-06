@@ -34,13 +34,7 @@
 
   #idn-lang{
       position: relative;
-      left: 70px;
-      bottom: 32px;
-<<<<<<< HEAD
-=======
-
->>>>>>> e968ba1a1fee49bedc4aac8821d294661496610e
-
+      bottom: 14px;
   }
 
   #btn-foo1{
@@ -48,7 +42,6 @@
     height: 28px;
     font-weight: 700;
     padding-bottom: 10px;
-
   }
 
   #btn-foo2{
@@ -109,14 +102,26 @@
     width:15px;
     height:15px;
     display: inline-block;
-
   }
   .anc-upload {
     height: 34px;
     width: 22px;
     margin-left: 30px;
     padding: 0px 10px;
+  }
 
+  .upload-camera{
+    width: 1.5em;
+    height: 1.7em;
+    position: relative;
+    right: 2em;
+  }
+
+  .avatar-img{
+    width: 1.5em;
+    height: 1.5em;
+    position: relative;
+    right: 2em;
   }
 
   .logos {
@@ -276,13 +281,13 @@
     height: 100%;
     width: 100%;
   }
+
   .info-video{
     height: 170px;
     width: 640px;
     background-color: #FFFFFF;
     margin-top: 10px;
     box-shadow: 1px 1px 5px grey;
-
   }
 
   .name-video{
@@ -293,42 +298,35 @@
     font-family: 'Noto Sans', sans-serif;
     font-size: 14px;
     letter-spacing: .1px;
-
   }
+
   .div-t{
     height: 48px;
     width: 48px;
     background-color: #689F39;
-
-
   }
+
   .t{
     font-size: 35px;
     color: #FFFFFF;
     text-decoration: none;
     padding-left: 13px;
-
-
   }
 
   .odin-div {
     position: relative;
     bottom: 50px;
     left: 60px;
-
   }
+
   .odin{
     color: #000000;
     font-weight: bold;
-
   }
-
-
 
   .yt-icon {
     width: 16px;
     height: 12px;
-
   }
 
   .yt-btn {
@@ -339,7 +337,6 @@
     border: 1px solid red;
     border-radius: 2px;
     color: white;
-
   }
 
   .n-views {
@@ -376,7 +373,6 @@
     width: 610px;
     right: 15px;
     color: black;
-
   }
 
   .line-blue {
@@ -385,7 +381,6 @@
     width: 125px;
     left: 218px;
     border: 2px solid #257ac6;
-
   }
 
   .line-gray {
@@ -394,7 +389,6 @@
     width: 5px;
     left: 286px;
     border: 2px solid #e3e3e3;
-
   }
 
   .material-icons {
@@ -402,6 +396,7 @@
     width: 11px;
     height: 11px;
   }
+
   .icons {
     width: 610px;
     height: 34px;
@@ -409,7 +404,6 @@
     flex-direction: row;
     position: relative;
     bottom: 70px;
-
   }
 
   .addto{
@@ -423,14 +417,8 @@
     position: relative;
     right: 15px;
     bottom: 10px;
-
   }
-<<<<<<< HEAD
-  
-=======
 
-
->>>>>>> e968ba1a1fee49bedc4aac8821d294661496610e
   .addto1 {
       background-color: transparent;
       border: none;
@@ -442,13 +430,8 @@
       text-decoration: none;
       height: 28px;
       width: 70px;
-
     }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> e968ba1a1fee49bedc4aac8821d294661496610e
   .w1 {
     position: relative;
     bottom: 9px;
@@ -456,7 +439,6 @@
     text-align: right;
     font-size: 11px;
     opacity: .54;
-
   }
 
   .pub {
@@ -469,12 +451,13 @@
     margin-top: 10px;
     box-shadow: 1px 1px 5px grey;
   }
+
   .pub-t{
     position: relative;
     top: 15px;
     left: 15px;
-
   }
+
   .pub-p{
     position: relative;
     margin-left: 15px;
@@ -482,12 +465,8 @@
     border-bottom: .25px solid #C7C7C7;
     padding-bottom: 10px;
     width: 600px;
-<<<<<<< HEAD
-=======
-
->>>>>>> e968ba1a1fee49bedc4aac8821d294661496610e
-
   }
+
   .hr1{
     position: relative;
     bottom: -10px;
@@ -495,6 +474,7 @@
     right: 15px;
     color: black;
   }
+
    .show-more {
     text-decoration: none;
     opacity: .54;
@@ -502,8 +482,6 @@
     position: relative;
     bottom: 3px;
     font-weight: 700;
-
-
   }
 
   .show-btn {
@@ -514,6 +492,7 @@
     position: relative;
     bottom: 13px;
   }
+
   .load{
     position: relative;
     bottom: 80px;
@@ -524,6 +503,7 @@
     margin-top: 10px;
     box-shadow: 1px 1px 5px grey;
   }
+
   .gif {
     width: 15px;
     height: 15px;
@@ -531,6 +511,7 @@
     left: 275px;
     top: 58px;
   }
+
 .load-txt {
   opacity: .54;
   color: black !important;
@@ -575,8 +556,7 @@
   width: 37px;
   height: 15px;
   background-color: white;
-  position: relative;
-
+  position: relative
 }
 
 .mini-video-border {
