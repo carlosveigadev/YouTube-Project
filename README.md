@@ -20,15 +20,15 @@ https://wrakc.github.io/YouTube-Project/.
 
 👤 **Carlos Veiga**
 
-- Github: [@githubhandle](https://github.com/wrakc)
-- Twitter: [@twitterhandle](https://twitter.com/carlosveig)
-- Linkedin: [linkedin](https://linkedin.com/chveiga)
+- [Github](https://github.com/carlosveigadev)
+- [Twitter](https://twitter.com/carlosveigadev)
+- [Linkedin](https://linkedin.com/carlosveigadev)
 
 👤 **Carlos Flores Robles**
 
-- Github: [@githubhandle](https://github.com/carlos-ssh)
+- GitHub: [@githubhandle](https://github.com/carlos-ssh)
 - Twitter: [@twitterhandle](https://twitter.com/AomRobles)
-- Linkedin: [linkedin](https://linkedin.com/carlosfloresrobles)
+- LinkedIn: [linkedin](https://linkedin.com/carlosfloresrobles)
 
 ## 🤝 Contributing
 
